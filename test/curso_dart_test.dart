@@ -2,7 +2,7 @@ import 'package:curso_dart/curso_dart.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  test('get integer value of arithmeticOperators', () {
+    expect(arithmeticOperators(), 2);
   });
 }
